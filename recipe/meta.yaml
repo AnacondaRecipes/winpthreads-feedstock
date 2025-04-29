@@ -39,7 +39,6 @@ outputs:
     requirements:
       run:
       run_constrained:
-        - msys2-conda-epoch <0.0a0
         - pthreads-win32 <0.0a0
     test:
       commands:
@@ -63,7 +62,6 @@ outputs:
       run:
         - {{ pin_subpackage("libwinpthread", exact=True) }}
       run_constrained:
-        - msys2-conda-epoch <0.0a0
         - pthreads-win32 <0.0a0
     test:
       commands:
