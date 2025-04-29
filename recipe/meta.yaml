@@ -28,6 +28,7 @@ source:
 
 build:
   number: 0
+  # trigger 1
   skip: True  # [not win]
 
 outputs:  
